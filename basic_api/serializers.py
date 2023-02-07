@@ -1,7 +1,7 @@
+from .models import apiModel
 from rest_framework import serializers
-from basic_api.models import apiModel
 
 class apiSerializer(serializers.ModelSerializer):
-    class meta:
+    class Meta:
         model=apiModel
-        fields=['name','desc']
+        fields=["name","des"]

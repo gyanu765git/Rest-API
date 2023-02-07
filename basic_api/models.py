@@ -8,4 +8,4 @@ class apiModel(models.Model):
     des = models.TextField(max_length=50,null=True,blank=True)
 
     def __str__(self):
-        return self.name\
+        return self.name
